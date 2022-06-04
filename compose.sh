@@ -1,3 +1,4 @@
+# Automatically prune all images and down all containers then starts to build and up new container
 echo "📦  STARTED TO PACK THINGS UP"
 echo "🛬  Down existing container"
 sudo docker-compose down

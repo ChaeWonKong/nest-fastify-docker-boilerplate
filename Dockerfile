@@ -4,10 +4,10 @@ FROM node:16.13.0-alpine
 # set working directory
 WORKDIR /app
 
-# `/app/node_modules/.bin`을 $PATH 에 추가
+# ADD `/app/node_modules/.bin` to $PATH
 ENV PATH /node_modules/.bin:$PATH
 
-# app dependencies, install 및 caching
+# app dependencies, install, caching
 COPY . .
 RUN yarn
 RUN yarn run build

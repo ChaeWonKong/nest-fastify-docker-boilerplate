@@ -1,6 +1,6 @@
-version: '3.7' # 파일 규격 버전
+version: '3.7' # standard version
 
-services: # 이 항목 밑에 실행하려는 컨테이너 들을 정의 ( 컴포즈에서 컨테이너 : 서비스 )
+services: # declare containers: nginx and app
   nginx:
     image: nginx:latest
     container_name: nginx
