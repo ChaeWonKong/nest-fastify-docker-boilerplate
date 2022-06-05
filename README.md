@@ -1,11 +1,11 @@
 # ⚡️ Nest Fastify Docker Boilerplate
 
-[nodejs](https://img.shields.io/badge/Runtime-NodeJS-blue)
-[fastify](https://img.shields.io/badge/Framework-Fastify-yellow)
-[nestjs](https://img.shields.io/badge/Framework-NestJS-brightgreen)
-[typescript](https://img.shields.io/badge/Language-TypeScript-red)
-[docker](https://img.shields.io/badge/Container-Docker-yellowgreen)
-[nginx](https://img.shields.io/badge/WebServer-Nginx-lightgrey)
+![nodejs](https://img.shields.io/badge/Runtime-NodeJS-blue)
+![fastify](https://img.shields.io/badge/Framework-Fastify-yellow)
+![nestjs](https://img.shields.io/badge/Framework-NestJS-brightgreen)
+![typescript](https://img.shields.io/badge/Language-TypeScript-red)
+![docker](https://img.shields.io/badge/Container-Docker-yellowgreen)
+![nginx](https://img.shields.io/badge/WebServer-Nginx-lightgrey)
 
 Use nest-fastify easier and faster.
 
