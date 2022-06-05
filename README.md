@@ -1,6 +1,13 @@
-# Nest Fastify Docker Boilerplate
+# ⚡️ Nest Fastify Docker Boilerplate
 
-Use nest-fastify easier and faster ⚡️
+[nodejs](https://img.shields.io/badge/Runtime-NodeJS-blue)
+[fastify](https://img.shields.io/badge/Framework-Fastify-yellow)
+[nestjs](https://img.shields.io/badge/Framework-NestJS-brightgreen)
+[typescript](https://img.shields.io/badge/Language-TypeScript-red)
+[docker](https://img.shields.io/badge/Container-Docker-yellowgreen)
+[nginx](https://img.shields.io/badge/WebServer-Nginx-lightgrey)
+
+Use nest-fastify easier and faster.
 
 This project includes: Nest.js, Fastify, Docker, NginX configurations, shell script file to run automated docker build and up process.
 
@@ -32,7 +39,7 @@ $ chmod 777 compose.sh
 $ ./compose.sh
 ```
 
-Then you can see the result at "127.0.0.1:3000"
+Then you can see the result at "http://localhost:3000"
 
 ## Contributions
 
@@ -40,4 +47,4 @@ Any kind of contributions are welcome!
 
 ## Maintainer
 
-@chaewonkong
+[@chaewonkong](https://github.com/ChaeWonKong)
