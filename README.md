@@ -7,16 +7,33 @@
 ![docker](https://img.shields.io/badge/Container-Docker-yellowgreen)
 ![nginx](https://img.shields.io/badge/WebServer-Nginx-lightgrey)
 
-Use nest-fastify easier and faster.
+Use `Nest.js` w/ `fastify` easier and faster.
 
-This project includes: Nest.js, Fastify, Docker, NginX configurations, shell script file to run automated docker build and up process.
+This project includes: `Nest.js`, `Fastify`, `Docker`, `Nginx` configurations, shell script file to run automated docker build and up process.
 
 Configurations for `.env`, `HttpModule`, `exception-filter` has been included. `fastify-helmet` also.
+
+### Motivation
+
+Nest.js is a powerful framework that fully supports DI, make developers able to conform [SOLID principles](https://en.wikipedia.org/wiki/SOLID).
+However, there's a lot to configure in order to run and deploy actual app.
+
+This project offers pre-configured boilerplates, to reduce time spent on configuration, since it is not the goal of application.
+Just concentrate on thinking logics and implementing business, and that's what frameworks for.
 
 ## Prerequesites
 
 Install docker and docker-compose.
 You need to have Unix-like OS (Linux, OS X..) else, you have to run docker command manually.
+
+## Uses
+
+This project uses the following libraries. configurations are already been made.
+
+- `typeorm`: Faster than sequelize, suitable option for RDB.
+- `fastify`: As almost as fast as node.js core. Much faster than express.
+- `docker`: Best container tool mankind had ever had.
+- `nginx`: light-weight, powerful web server.
 
 ## How To Use
 
