@@ -21,6 +21,9 @@ $ yarn
 $ yarn start:dev
 ```
 
+- If you have DB, you have to add `ormconfig.json` which will be automatically ignored by `.gitignore` for security reasons.
+- If you need environmental variables, just add `.env` to your root directory. No extra configuration needed.
+
 When you need to deploy, just use docker-compose 🐳
 The following shell script will automatically build docker container and make things ready.
 
@@ -30,3 +33,11 @@ $ ./compose.sh
 ```
 
 Then you can see the result at "127.0.0.1:3000"
+
+## Contributions
+
+Any kind of contributions are welcome!
+
+## Maintainer
+
+@chaewonkong
